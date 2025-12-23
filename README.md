@@ -43,7 +43,7 @@ Weave implements a **P2P Cluster Topology** using a serverless architecture:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/weave-chat.git](https://github.com/your-username/weave-chat.git)
+    git clone [https://github.com/MostafaMo426/Weave.git](https://github.com/MostafaMo426/Weave.git)
     ```
 2.  **Install dependencies:**
     ```bash
@@ -73,7 +73,26 @@ This app requires the following permissions to function (handled at runtime):
 * **Permissions:** `permission_handler`
 
 ---
+## 📂 Project Structure
 
+The project follows a clean architecture separating **UI**, **Business Logic (Services)**, and **Configuration**.
+
+```text
+weave/
+├── android/                   
+│   └── app/src/main/AndroidManifest.xml  # Native Android permissions (Bluetooth/Location)
+├── assets/                     # Images and screenshots for documentation
+├── lib/
+│   ├── screens/
+│   │   └── chat_screen.dart    # Main UI: Handles chat view, device list, and language toggle
+│   ├── services/
+│   │   ├── language_service.dart   # Handles Localization (English/Arabic) & RTL support
+│   │   └── nearby_service.dart     # Core P2P Logic: Advertising, Discovery, and Payload transfer
+│   └── main.dart               # App Entry point & Provider setup
+├── pubspec.yaml                # Project dependencies (nearby_connections, permission_handler)
+└── README.md                   # Project documentation
+```
+---
 ## 🔮 Future Roadmap
 
 * [ ] Implement **Multi-hop Routing** (Store-and-Forward) to extend range.

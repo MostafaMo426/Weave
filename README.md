@@ -43,7 +43,7 @@ Weave implements a **P2P Cluster Topology** using a serverless architecture:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/MostafaMo426/Weave.git](https://github.com/MostafaMo426/Weave.git)
+    git clone [https://github.com/MostafaMo426/Weave.git]
     ```
 2.  **Install dependencies:**
     ```bash

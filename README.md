@@ -4,6 +4,7 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 
 **Weave** is a mobile application designed to enable communication in "dead zones" where internet or cellular coverage is unavailable. By leveraging the **Nearby Connections API**, Weave transforms smartphones into network nodes, creating a local **Peer-to-Peer (P2P)** mesh network for secure, instant messaging.
 

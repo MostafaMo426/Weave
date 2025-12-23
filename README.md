@@ -48,7 +48,7 @@ Weave implements a **P2P Cluster Topology** using a serverless architecture:
     ```
 2.  **Install dependencies:**
     ```bash
-    cd weave-chat
+    cd Weave
     flutter pub get
     ```
 3.  **Run on Android Device:**
